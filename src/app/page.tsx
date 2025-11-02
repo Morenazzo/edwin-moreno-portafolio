@@ -134,10 +134,10 @@ export default function Home() {
       </nav>
 
       {/* Hero Section */}
-      <section className="pt-32 pb-20 px-6 bg-gradient-to-br from-slate-50 via-white to-teal-50 relative overflow-hidden">
+      <section className="pt-32 pb-20 px-6 bg-gradient-to-br from-slate-900 via-slate-800 to-slate-900 relative overflow-hidden">
         {/* Decorative elements */}
-        <div className="absolute top-0 right-0 w-96 h-96 bg-teal-100/30 rounded-full blur-3xl"></div>
-        <div className="absolute bottom-0 left-0 w-96 h-96 bg-blue-100/30 rounded-full blur-3xl"></div>
+        <div className="absolute top-0 right-0 w-96 h-96 bg-teal-500/5 rounded-full blur-3xl"></div>
+        <div className="absolute bottom-0 left-0 w-96 h-96 bg-teal-500/5 rounded-full blur-3xl"></div>
         <div className="max-w-7xl mx-auto relative z-10">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div className="order-1 lg:order-1 flex justify-center lg:justify-start">
@@ -156,25 +156,25 @@ export default function Home() {
               </div>
             </div>
             <div className="order-2 lg:order-2">
-              <div className="inline-block mb-4 px-4 py-2 bg-teal-100 border border-teal-300 rounded-full">
-                <span className="text-teal-700 text-sm font-medium">{t[language].hero.available}</span>
+              <div className="inline-block mb-4 px-4 py-2 bg-teal-500/10 border border-teal-500/30 rounded-full">
+                <span className="text-teal-400 text-sm font-medium">{t[language].hero.available}</span>
               </div>
-              <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold text-slate-900 mb-6 leading-tight">
+              <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold text-white mb-6 leading-tight">
                 Edwin Moreno
           </h1>
-              <h2 className="text-2xl md:text-3xl text-teal-600 font-semibold mb-4">
+              <h2 className="text-2xl md:text-3xl text-teal-400 font-semibold mb-4">
                 {t[language].hero.title}
               </h2>
-              <p className="text-xl text-slate-700 mb-8 italic">
+              <p className="text-xl text-slate-300 mb-8 italic">
                 "{t[language].hero.tagline}"
               </p>
-              <p className="text-lg text-slate-600 mb-8 leading-relaxed">
+              <p className="text-lg text-slate-400 mb-8 leading-relaxed">
                 {t[language].hero.description}
               </p>
               <div className="flex flex-wrap gap-4">
                 <a 
                   href="#contact" 
-                  className="px-8 py-4 bg-teal-600 text-white rounded-full font-semibold hover:bg-teal-700 transition-all transform hover:scale-105 shadow-lg shadow-teal-600/30"
+                  className="px-8 py-4 bg-teal-500 text-white rounded-full font-semibold hover:bg-teal-600 transition-all transform hover:scale-105 shadow-lg shadow-teal-500/30"
                 >
                   {t[language].hero.cta1}
                 </a>
@@ -182,7 +182,7 @@ export default function Home() {
                   href="https://www.linkedin.com/in/disruptionwithpurpose/" 
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="px-8 py-4 bg-white border-2 border-slate-300 text-slate-700 rounded-full font-semibold hover:bg-slate-50 transition-all"
+                  className="px-8 py-4 bg-slate-700 text-white rounded-full font-semibold hover:bg-slate-600 transition-all"
                 >
                   {t[language].hero.cta2}
                 </a>
@@ -369,9 +369,9 @@ export default function Home() {
       </section>
 
       {/* Featured Projects Section */}
-      <section id="projects" className="py-20 px-6 bg-gradient-to-br from-indigo-900/20 to-purple-900/20 border-t-4 border-indigo-500/50">
+      <section id="projects" className="py-20 px-6 bg-white border-t border-slate-200">
         <div className="max-w-7xl mx-auto relative z-10">
-          <h2 className="text-4xl md:text-5xl font-bold text-white mb-12 text-center">
+          <h2 className="text-4xl md:text-5xl font-bold text-slate-900 mb-12 text-center">
             {t[language].projects.title}
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-8">
@@ -379,42 +379,42 @@ export default function Home() {
               href="https://www.surfing.digital/" 
               target="_blank"
               rel="noopener noreferrer"
-              className="bg-slate-900/70 backdrop-blur-sm p-8 rounded-2xl border border-indigo-500/30 hover:border-indigo-400/60 transition-all group hover:shadow-2xl hover:shadow-indigo-500/20"
+              className="bg-slate-50 p-8 rounded-2xl border border-slate-200 hover:border-teal-400 hover:shadow-xl transition-all group"
             >
               <div className="text-4xl mb-4">🏄</div>
-              <h3 className="text-2xl font-bold text-white mb-4 group-hover:text-teal-400 transition-colors">
+              <h3 className="text-2xl font-bold text-slate-900 mb-4 group-hover:text-teal-600 transition-colors">
                 Surfing Digital
               </h3>
-              <p className="text-slate-300 mb-4">
+              <p className="text-slate-700 mb-4">
                 AI-based innovation platform helping companies launch high-impact projects. Successfully supported 20+ crowdfunding campaigns and corporate innovation programs.
               </p>
               <div className="flex flex-wrap gap-2 mb-4">
-                <span className="px-3 py-1 bg-teal-500/10 border border-teal-500/30 rounded-full text-teal-400 text-sm">Innovation Platform</span>
-                <span className="px-3 py-1 bg-teal-500/10 border border-teal-500/30 rounded-full text-teal-400 text-sm">Crowdfunding</span>
-                <span className="px-3 py-1 bg-teal-500/10 border border-teal-500/30 rounded-full text-teal-400 text-sm">AI</span>
+                <span className="px-3 py-1 bg-teal-50 border border-teal-200 rounded-full text-teal-700 text-sm">Innovation Platform</span>
+                <span className="px-3 py-1 bg-teal-50 border border-teal-200 rounded-full text-teal-700 text-sm">Crowdfunding</span>
+                <span className="px-3 py-1 bg-teal-50 border border-teal-200 rounded-full text-teal-700 text-sm">AI</span>
               </div>
-              <span className="text-teal-400 font-semibold">Learn More →</span>
+              <span className="text-teal-600 font-semibold">Learn More →</span>
             </a>
 
             <a 
               href="https://verymuch.ai/" 
               target="_blank"
               rel="noopener noreferrer"
-              className="bg-slate-900/70 backdrop-blur-sm p-8 rounded-2xl border border-purple-500/30 hover:border-purple-400/60 transition-all group hover:shadow-2xl hover:shadow-purple-500/20"
+              className="bg-slate-50 p-8 rounded-2xl border border-slate-200 hover:border-teal-400 hover:shadow-xl transition-all group"
             >
               <div className="text-4xl mb-4">🤖</div>
-              <h3 className="text-2xl font-bold text-white mb-4 group-hover:text-teal-400 transition-colors">
+              <h3 className="text-2xl font-bold text-slate-900 mb-4 group-hover:text-teal-600 transition-colors">
                 VeryMuch.AI
               </h3>
-              <p className="text-slate-300 mb-4">
+              <p className="text-slate-700 mb-4">
                 Marketplace connecting companies with verified AI talent. Helping businesses implement AI projects with specialized experts, ensuring measurable results.
               </p>
               <div className="flex flex-wrap gap-2 mb-4">
-                <span className="px-3 py-1 bg-teal-500/10 border border-teal-500/30 rounded-full text-teal-400 text-sm">AI Talent</span>
-                <span className="px-3 py-1 bg-teal-500/10 border border-teal-500/30 rounded-full text-teal-400 text-sm">Marketplace</span>
-                <span className="px-3 py-1 bg-teal-500/10 border border-teal-500/30 rounded-full text-teal-400 text-sm">GenAI</span>
+                <span className="px-3 py-1 bg-teal-50 border border-teal-200 rounded-full text-teal-700 text-sm">AI Talent</span>
+                <span className="px-3 py-1 bg-teal-50 border border-teal-200 rounded-full text-teal-700 text-sm">Marketplace</span>
+                <span className="px-3 py-1 bg-teal-50 border border-teal-200 rounded-full text-teal-700 text-sm">GenAI</span>
               </div>
-              <span className="text-teal-400 font-semibold">Visit Platform →</span>
+              <span className="text-teal-600 font-semibold">Visit Platform →</span>
             </a>
           </div>
         </div>
@@ -534,42 +534,42 @@ export default function Home() {
       </section>
 
       {/* Contact Section */}
-      <section id="contact" className="py-20 px-6 bg-gradient-to-br from-teal-900/30 to-slate-900 border-t-4 border-teal-500/50">
+      <section id="contact" className="py-20 px-6 bg-slate-50 border-t border-slate-200">
         <div className="max-w-4xl mx-auto text-center relative z-10">
-          <h2 className="text-4xl md:text-5xl font-bold text-white mb-8">
+          <h2 className="text-4xl md:text-5xl font-bold text-slate-900 mb-8">
             {t[language].contact.title}
           </h2>
-          <p className="text-xl text-slate-300 mb-12">
+          <p className="text-xl text-slate-700 mb-12">
             {t[language].contact.subtitle}
           </p>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-12">
             <a 
               href="mailto:edwinmorenοmarun@gmail.com"
-              className="bg-slate-800/50 p-6 rounded-2xl border border-slate-700/50 hover:border-teal-500/50 transition-all group"
+              className="bg-white p-6 rounded-2xl border border-slate-200 hover:border-teal-400 hover:shadow-lg transition-all group"
             >
               <div className="text-3xl mb-2">📧</div>
-              <h3 className="text-white font-semibold mb-1 group-hover:text-teal-400">{t[language].contact.email}</h3>
-              <p className="text-slate-400 text-xs break-all">edwinmorenοmarun@gmail.com</p>
+              <h3 className="text-slate-900 font-semibold mb-1 group-hover:text-teal-600">{t[language].contact.email}</h3>
+              <p className="text-slate-600 text-xs break-all">edwinmorenοmarun@gmail.com</p>
             </a>
             <a 
               href="https://github.com/Morenazzo"
             target="_blank"
             rel="noopener noreferrer"
-              className="bg-slate-800/50 p-6 rounded-2xl border border-slate-700/50 hover:border-teal-500/50 transition-all group"
+              className="bg-white p-6 rounded-2xl border border-slate-200 hover:border-teal-400 hover:shadow-lg transition-all group"
             >
               <div className="text-3xl mb-2">💻</div>
-              <h3 className="text-white font-semibold mb-1 group-hover:text-teal-400">{t[language].contact.github}</h3>
-              <p className="text-slate-400 text-sm">@Morenazzo</p>
+              <h3 className="text-slate-900 font-semibold mb-1 group-hover:text-teal-600">{t[language].contact.github}</h3>
+              <p className="text-slate-600 text-sm">@Morenazzo</p>
           </a>
           <a
               href="https://www.instagram.com/Morenazzo"
               target="_blank"
               rel="noopener noreferrer"
-              className="bg-slate-800/50 p-6 rounded-2xl border border-slate-700/50 hover:border-teal-500/50 transition-all group"
+              className="bg-white p-6 rounded-2xl border border-slate-200 hover:border-teal-400 hover:shadow-lg transition-all group"
             >
               <div className="text-3xl mb-2">📸</div>
-              <h3 className="text-white font-semibold mb-1 group-hover:text-teal-400">{t[language].contact.instagram}</h3>
-              <p className="text-slate-400 text-sm">@Morenazzo</p>
+              <h3 className="text-slate-900 font-semibold mb-1 group-hover:text-teal-600">{t[language].contact.instagram}</h3>
+              <p className="text-slate-600 text-sm">@Morenazzo</p>
             </a>
           </div>
           <div className="flex justify-center gap-4">
@@ -577,7 +577,7 @@ export default function Home() {
               href="https://www.linkedin.com/in/disruptionwithpurpose/"
             target="_blank"
             rel="noopener noreferrer"
-              className="px-8 py-4 bg-teal-500 text-white rounded-full font-semibold hover:bg-teal-600 transition-all transform hover:scale-105"
+              className="px-8 py-4 bg-teal-600 text-white rounded-full font-semibold hover:bg-teal-700 transition-all transform hover:scale-105 shadow-lg"
             >
               Connect on LinkedIn
             </a>
@@ -586,8 +586,8 @@ export default function Home() {
       </section>
 
       {/* Footer */}
-      <footer className="py-8 px-6 bg-slate-950 border-t border-slate-700/50">
-        <div className="max-w-7xl mx-auto text-center text-slate-400">
+      <footer className="py-8 px-6 bg-white border-t border-slate-200">
+        <div className="max-w-7xl mx-auto text-center text-slate-600">
           <p>© 2025 Edwin Moreno. All rights reserved.</p>
           <p className="mt-2 text-sm">Strategic Innovation Leader | AI | Partnerships</p>
         </div>
