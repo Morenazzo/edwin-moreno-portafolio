@@ -77,7 +77,6 @@ portafolio/
 ## 📞 Contact Information
 
 - **Email**: edwinmorenοmarun@gmail.com
-- **Phone**: +52 55 62081676
 - **LinkedIn**: [disruptionwithpurpose](https://www.linkedin.com/in/disruptionwithpurpose/)
 - **Instagram**: [@Morenazzo](https://www.instagram.com/Morenazzo)
 - **Forbes**: [Author Page](https://forbes.com.mx/author/edwin-moreno/)
